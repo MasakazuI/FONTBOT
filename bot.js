@@ -35,7 +35,7 @@ function gotMessage(msg)
         return;
     }
 
-    if (msg.type === 'REPLY' && msg.content === '' && msg?.stickers)
+    if (msg.type === 'REPLY' && msg.content === '' && msg.stickers)
     {
         return;
     }

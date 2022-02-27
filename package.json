@@ -4,12 +4,13 @@
   "description": "Alan wants this bot",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0"
-  }
+  },
+  "engines": { "node": "16.x" }
 }
